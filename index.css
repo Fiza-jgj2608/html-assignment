@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playball', sans-serif;
+}
+
+header, footer {
+    background-color: #EBDEF0;
+}
+
+.site-title {
+    color: #9575CD;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px #000;
+}
+
+ol li {
+    list-style-type: square;
+}
+
+ol li:nth-child(1) {
+    background-color: #F1948A;
+}
+
+.active:hover {
+    background-color: #FADBD8;
+}
